@@ -1,0 +1,10 @@
+C:\Users\greg_\source\repos\ProperAssignment\ProperAssignment\bin\Debug\ProperAssignment.exe.config
+C:\Users\greg_\source\repos\ProperAssignment\ProperAssignment\bin\Debug\ProperAssignment.exe
+C:\Users\greg_\source\repos\ProperAssignment\ProperAssignment\bin\Debug\ProperAssignment.pdb
+C:\Users\greg_\source\repos\ProperAssignment\ProperAssignment\obj\Debug\ProperAssignment.csproj.AssemblyReference.cache
+C:\Users\greg_\source\repos\ProperAssignment\ProperAssignment\obj\Debug\ProperAssignment.Properties.Resources.resources
+C:\Users\greg_\source\repos\ProperAssignment\ProperAssignment\obj\Debug\ProperAssignment.csproj.GenerateResource.cache
+C:\Users\greg_\source\repos\ProperAssignment\ProperAssignment\obj\Debug\ProperAssignment.csproj.CoreCompileInputs.cache
+C:\Users\greg_\source\repos\ProperAssignment\ProperAssignment\obj\Debug\ProperAssignment.exe
+C:\Users\greg_\source\repos\ProperAssignment\ProperAssignment\obj\Debug\ProperAssignment.pdb
+C:\Users\greg_\source\repos\ProperAssignment\ProperAssignment\obj\Debug\ProperAssignment.Form1.resources
