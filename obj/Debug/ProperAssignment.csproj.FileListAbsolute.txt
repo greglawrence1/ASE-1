@@ -8,3 +8,13 @@ C:\Users\greg_\source\repos\ProperAssignment\ProperAssignment\obj\Debug\ProperAs
 C:\Users\greg_\source\repos\ProperAssignment\ProperAssignment\obj\Debug\ProperAssignment.exe
 C:\Users\greg_\source\repos\ProperAssignment\ProperAssignment\obj\Debug\ProperAssignment.pdb
 C:\Users\greg_\source\repos\ProperAssignment\ProperAssignment\obj\Debug\ProperAssignment.Form1.resources
+C:\Users\greg_\Documents\projects\ASE-1\bin\Debug\ProperAssignment.exe.config
+C:\Users\greg_\Documents\projects\ASE-1\bin\Debug\ProperAssignment.exe
+C:\Users\greg_\Documents\projects\ASE-1\bin\Debug\ProperAssignment.pdb
+C:\Users\greg_\Documents\projects\ASE-1\obj\Debug\ProperAssignment.csproj.AssemblyReference.cache
+C:\Users\greg_\Documents\projects\ASE-1\obj\Debug\ProperAssignment.Form1.resources
+C:\Users\greg_\Documents\projects\ASE-1\obj\Debug\ProperAssignment.Properties.Resources.resources
+C:\Users\greg_\Documents\projects\ASE-1\obj\Debug\ProperAssignment.csproj.GenerateResource.cache
+C:\Users\greg_\Documents\projects\ASE-1\obj\Debug\ProperAssignment.csproj.CoreCompileInputs.cache
+C:\Users\greg_\Documents\projects\ASE-1\obj\Debug\ProperAssignment.exe
+C:\Users\greg_\Documents\projects\ASE-1\obj\Debug\ProperAssignment.pdb
