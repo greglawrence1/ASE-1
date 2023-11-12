@@ -21,6 +21,17 @@ namespace ProperAssignment
             get { return Fill; }
             set { Fill = value; }
         }
+
+        public void parserCommand(string commands)
+        {
+            String[] commandList = commands.Split('\n');
+            for (int i = 0; i < commandList.Length; i++)
+            {
+                Console.WriteLine("You made it here");
+                parseCommand(commandList[i]);
+            }
+
+        }
         public void parseCommand(string command)
         {
             command.Trim().ToLower();

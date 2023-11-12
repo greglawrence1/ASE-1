@@ -59,7 +59,13 @@ namespace ProperAssignment
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            
+            if (textBox1.Text == "run")
+            {
+                string richText = richTextBox1.Text;
+                Parser parser = new Parser(bitmapG);
+                parser.parserCommand(richText);
+                pictureBox1.Refresh();
+            }
         }    
 
         private void pictureBox1_Click_1(object sender, EventArgs e)
