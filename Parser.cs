@@ -50,6 +50,15 @@ namespace ProperAssignment
                 Rectangle r = new Rectangle(Color.AliceBlue, q1, q2, q3, q4, Filled);
                 r.draw(g);
             }
+            if (commands[0] == "triangle")
+            {
+                int t1 = int.Parse(commands[1]);
+                int t2 = int.Parse(commands[2]);
+                int t3 = int.Parse(commands[3]);
+
+                triangle t = new triangle(Color.AliceBlue, t1, t2, t3, Filled);
+                t.draw(g);
+            }
         }
     }
 }
