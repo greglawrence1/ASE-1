@@ -27,7 +27,6 @@ namespace ProperAssignment
             String[] commandList = commands.Split('\n');
             for (int i = 0; i < commandList.Length; i++)
             {
-                Console.WriteLine("You made it here");
                 parseCommand(commandList[i]);
             }
 
@@ -70,6 +69,12 @@ namespace ProperAssignment
                 triangle t = new triangle(Color.AliceBlue, t1, t2, t3, Filled);
                 t.draw(g);
             }
+            if (commands[0] == "clear")
+            {
+                Clear clear = new Clear(g);
+                clear.ClearImage();              
+            }
+
         }
     }
 }
