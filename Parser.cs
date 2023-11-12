@@ -12,9 +12,11 @@ namespace ProperAssignment
     {
         Graphics g;
         private bool Fill;
+        private drawTo h;
         public Parser(Graphics g) 
         {
             this.g = g;
+            h = new drawTo(0, 0);
         }
         public bool Filled
         {
@@ -74,7 +76,12 @@ namespace ProperAssignment
                 Clear clear = new Clear(g);
                 clear.ClearImage();              
             }
-
+            if (commands[0] == "drawto")
+            {
+                int i = int.Parse(commands[1]);
+                int f = int.Parse(commands[2]);
+                h.DrawTo(g, i, f);
+            }
         }
     }
 }
