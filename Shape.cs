@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ProperAssignment
 {
-    abstract class Shape
+    public abstract class Shape
     {
         protected Color colour;
         protected int x;

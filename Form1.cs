@@ -18,20 +18,20 @@ namespace ProperAssignment
 
         Bitmap myBitmap = new Bitmap(640, 480);
         Graphics bitmapG;
- 
+        private Parser parser;
 
         public Form1()
         {
             InitializeComponent();
             bitmapG = Graphics.FromImage(myBitmap);
+            parser = new Parser(bitmapG);
 
         }
 
         private void Run_Button_Click(object sender, EventArgs e)
         {
             string mytext = textBox1.Text;
-            Parser parse = new Parser(bitmapG);
-            parse.parseCommand(mytext);
+            parser.parseCommand(mytext);
             textBox1.Clear();
             pictureBox1.Refresh();
 
