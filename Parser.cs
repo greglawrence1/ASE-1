@@ -37,6 +37,20 @@ namespace ProperAssignment
         {
             command.Trim().ToLower();
             String[] commands = command.Split(' ');
+            ValidateCommands validate = new ValidateCommands();
+            String firstcommand = commands[0];
+            try
+            {
+                if (validate.IsAcceptedCommand(firstcommand) == false)
+                {
+                    
+                    throw new InvalidOperationException("You have entered an incorrect command");
+                }
+            }
+            catch (InvalidOperationException)
+            {
+                Console.WriteLine("You have entered an incorrect command");
+            }
             if (commands[0] == "fillon")
             {
                 Filled = true;
